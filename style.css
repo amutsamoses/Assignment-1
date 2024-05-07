@@ -1,35 +1,33 @@
-html {
-  font-size: 10px;
-  font-family: "Open Sans", sans-serif;
-}
 
-h1 {
-  font-size: 60px;
-  text-align: center;
-}
+    body {
+      font-family: Arial, sans-serif; /* Set a common font for better readability */
+      background-color: #f4f4f4; /* Set a light background color */
+    }
 
-p,
-li {
-  font-size: 16px;
-  line-height: 2;
-  letter-spacing: 1px;
-}
+    h1 {
+      text-align: center; /* Center align the heading */
+      margin-top: 50px; /* Add some space above the heading */
+      color: #333; /* Dark gray color for the heading */
+    }
 
-html {
-  background-color: #00539f;
-}
+    ul {
+      list-style-type: none; /* Remove default bullet points */
+      padding: 0;
+      margin: 0 auto; /* Center the list horizontally */
+      max-width: 400px; /* Limit the width of the list */
+    }
 
-body {
-  width: 600px;
-  margin: 0 auto;
-  background-color: #ff9500;
-  padding: 0 20px 20px 20px;
-  border: 5px solid black;
-}
+    li {
+      margin-bottom: 10px; /* Add more space between list items */
+      background-color: #fff; /* White background */
+      padding: 15px; /* Increase padding around each list item */
+      border-radius: 8px; /* Rounded corners */
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+      transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    }
 
-h1 {
-  margin: 0;
-  padding: 20px 0;
-  color: #00539f;
-  text-shadow: 3px 3px 1px black;
-}
+    li:hover {
+      background-color: #f0f0f0; /* Light gray on hover */
+    }
+  
+
