@@ -1,3 +1,35 @@
+
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+header{
+    padding: 1rem 2rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 h1 {
 background-image: url("./images/background.jpeg");
 height: 1000px;
@@ -5,3 +37,59 @@ text-align: center;
 padding-top: 500px;
 background-repeat: no-repeat;
 }
+
+.logo{
+    width: 10rem;
+}
+
+nav >ul{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+nav > ul> * a{
+    display: block;
+    color: #121212;
+    transition: all .2s linear;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+nav > ul> * >a.active,
+nav > ul> * >a:hover{
+    color: green; 
+}
+
+    body {
+      font-family: Arial, sans-serif; /* Set a common font for better readability */
+      background-color: #f4f4f4; /* Set a light background color */
+    }
+
+    h1 {
+      text-align: center; /* Center align the heading */
+      margin-top: 50px; /* Add some space above the heading */
+      color: #333; /* Dark gray color for the heading */
+    }
+
+    ul {
+      list-style-type: none; /* Remove default bullet points */
+      padding: 0;
+      margin: 0 auto; /* Center the list horizontally */
+      max-width: 400px; /* Limit the width of the list */
+    }
+
+    li {
+      margin-bottom: 10px; /* Add more space between list items */
+      background-color: #fff; /* White background */
+      padding: 15px; /* Increase padding around each list item */
+      border-radius: 8px; /* Rounded corners */
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+      transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    }
+
+    li:hover {
+      background-color: #f0f0f0; /* Light gray on hover */
+    }
+ 
