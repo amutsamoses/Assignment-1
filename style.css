@@ -1,4 +1,5 @@
 
+
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 *{
@@ -28,6 +29,15 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+
+h1 {
+background-image: url("./images/background.jpeg");
+height: 1000px;
+text-align: center;
+padding-top: 500px;
+background-repeat: no-repeat;
+}
+
 .logo{
     width: 10rem;
 }
